@@ -1,0 +1,29 @@
+@media (max-width: 1440px ) {
+    .container{
+        width: 90%;
+    }
+}
+@media (max-width: 1200px ) {
+    .hero-gen{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+
+@media (max-width: 415px ) {
+    .hero-gen{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .select {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .hero-block {
+        margin: 10px 0;
+    }
+}
